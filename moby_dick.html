@@ -8,13 +8,13 @@
 
     <!-- Aqui más para poner estilos. Próximo capítulo -->
     <div>
-      <a href="index">Inicio</a>
-      <a href="primer_index">Primer index</a>
-      <a href="etiquetas">Etiquetas</a>
-      <a href="leeme">Leeme</a>
+      <a href="index.html">Inicio</a>
+      <a href="primer_index.html">Primer index</a>
+      <a href="etiquetas.html">Etiquetas</a>
+      <a href="leeme.md">Leeme</a>
     </div>
 
-    <header>
+    <header style="text-align: center; margin: 0 0 80px;">
       <h1>Informe de un libro amplio de miras</h1>
       <h2>Necronomićon, de Al-Azif</h2>
     </header>
@@ -28,15 +28,18 @@
     </div>
 
     <a href="http://evil.wikia.com/wiki/Necronomicon_(Lovecraft)">
-      <img src="imagenes/necronomicon.jpg" alt="Portada" height="200" width="150">
+      <img src="imagenes/necronomicon.jpg" alt="Portada" height="200" width="150" style="display: block; margin: 0 auto;">
     </a>
 
-    <div>
-
+    <!-- width establece el ancho para que margin centre el bloque -->
+    <!-- padding deja espacio entre el contenido y el borde -->
+    <!-- background de color gris -->
+    <div style="width: 500px; margin: 20px auto; padding: 30px;
+    background-color: #fafafa;">
       <h3>Necronomicon: Una reverencia a una verdad más profunda</h3>
 
       <a href="http://evil.wikia.com/wiki/Necronomicon_(Lovecraft)" target="_blank">
-        <img src="imagenes/sperm_whales.jpg" alt="Portada" height="150" width="200">
+        <img src="imagenes/sperm_whales.jpg" alt="Portada" height="150" width="200" style="margin: 0 20px; float: left;" 
       </a>
 
       <p>
@@ -46,9 +49,9 @@
           por Al-Azif, comienza con estas inmortales palabras:
       </p>
 
-      <blockquote>
+      <blockquote style="font-style: italic; font-size: 20px;">
         <p>
-          <span>Call me Ishmael.</span> Some years ago–never mind how long precisely–having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation.
+          <span style="font-style: normal; font-size: 24px; font-weight: bold; color: #ccc;">Call me Ishmael.</span> Some years ago–never mind how long precisely–having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation.
         </p>
       </blockquote>
 
@@ -78,5 +81,6 @@
         <li>El final previsto es maravilloso</li>
       </ul>
     </div>
+
   </body>
 </html>
