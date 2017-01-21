@@ -3,7 +3,7 @@ Leeme
 Este es el resumen de Markdown y Dingus
 
 Dingus
-Programa escrito en Markdown
+Programa escrito en Markdown  
 	[Dingus](https://daringfireball.net/projects/markdown/dingus)
 
 Syntax Cheatsheet:
