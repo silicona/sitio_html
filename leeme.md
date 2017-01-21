@@ -2,6 +2,8 @@ Leeme
 
 Este es el resumen de Markdown y Dingus
 
+Dos espacios para crear una nueva linea.  
+
 Dingus
 Programa escrito en Markdown  
 	[Dingus](https://daringfireball.net/projects/markdown/dingus)
