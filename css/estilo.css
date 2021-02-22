@@ -1,4 +1,16 @@
 
 nav {
-	text-align: right;
+	/*text-align: right;*/
+}
+
+/* moby_dick */
+#img_cthulhu {
+	display: block;
+	padding: 2em;
+	max-width: 100%;
+}
+
+.link_lovecraft {
+	float: left;
+	margin: 2ex;
 }
