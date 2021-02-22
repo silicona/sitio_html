@@ -3,228 +3,273 @@
 <head>
 	<meta charset="utf-8">
 	<title>Etiquetas HTML</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="vendor/b4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="vendor/b4/js/bootstrap.min.js"></script>
 </head>
 <body>
+	
+	<div class="container-fluid">
 
-  <div>
-    <a href="index">Inicio</a>
-    <a href="primer_index">Primer index</a>
-    <a href="moby_dick">Necronomicon</a>
-    <a href="leeme">Leeme</a>
-  </div>
+		<div class="row fixed-top bg-dark">
 
-	<h1>Etiquetas HTML importantes</h1>
+			<header class="col-12">
 
-	La imagen tambien es un elemento inline
-	<a href="https://www.flickr.com/photos/jdhancock/3814523970">
-		<img src="imagenes/stormtrooper.jpg" alt ="Storm Trooper">
-	</a>
+				<nav class="navbar justify-content-start">
+					<a href="index" class="nav-link btn btn-default m-1">Inicio</a>
+					<a href="moby_dick.html" class="nav-link btn btn-danger m-1">Necronomicon</a>
+					<a href="primer_index.html" class="nav-link btn btn-warning m-1">Primer index</a>
+					<a href="etiquetas.html" class="nav-link btn btn-success m-1">Etiquetas</a>
+				</nav>
 
-	<p>
-		Esta página está diseñada como una referencia rápida de algunas de las más comunes etiquetas cubiertas en <a href="HTTP://learnenough.com/html-tutorial"><em>Learn Enough To Be Dangerous</em></a>. En el proceso de hacerlo, aprenderemos como hacer <em>tablas</em> HTML mediante <code>la etiqueta tabla</code> y otras relacionadas.
-	</p>
+			</header>
 
-	<p>
-		Las tablas más abajo no incluyen todas las etiquetas HTML, pero hacen una lista de las más importantes.
-	</p>
+		</div>
 
-	<h2>Elementos Block</h2>
+		<div class="row mt-5">
 
-	<table>
-		<tr>
-			<th>Etiqueta</th>
-			<th>Nombre</th>
-			<th>Proposito</th>
-		</tr>
+			<div class="col-12 mt-3">
+		
+				<div class="container">
 
-		<tr>
-			<td style="padding: 10px;"><code>h1</code>&ndash;<code>h6</code></td>
-			<td style="padding: 10px;">Cabeceras</td>
-			<td>Incluye una cabecera (niveles 1&ndash;6)</td>
-		</tr>
+					<div class="row">
 
-	  <tr>
-      <td style="padding: 20px;"><code>p</code></td>
-      <td style="padding: 20px;">Párrafo</td>
-      <td>Incluye un parrafo de texto</td>
-    </tr>
+						<div class="col-12">
 
-    <tr>
-      <td><code>table</code></td>
-      <td>Tabla</td>
-      <td>Incluye una tabla</td>
-    </tr>
+							<h1>Etiquetas HTML importantes</h1>
 
-    <tr>
-      <td><code>tr</code></td>
-      <td>Fila de tabla</td>
-      <td>Incluye una fila de datos</td>
-    </tr>
+							<p>
+								La imagen tambien es un elemento inline	<a href="https://www.flickr.com/photos/jdhancock/3814523970"><img src="imagenes/stormtrooper.jpg" alt ="Storm Trooper"></a>
+								<br><br>
+								Esta página está diseñada como una referencia rápida de algunas de las más comunes etiquetas cubiertas en <a href="http://learnenough.com/html-tutorial"><em>Learn Enough To Be Dangerous</em></a>. En el proceso de hacerlo, aprenderemos como hacer <em>tablas</em> HTML mediante <code>la etiqueta tabla</code> y otras relacionadas.
+								<br><br>
+								Las tablas más abajo no incluyen todas las etiquetas HTML, pero hacen una lista de las más importantes.
+							</p>
 
-    <tr>
-      <td><code>th</code></td>
-      <td>Cabecera de tabla</td>
-      <td>Hace una cabecera de tabla</td>
-    </tr>
+						</div>
 
-    <tr>
-      <td><code>td</code></td>
-      <td>Datos de tabla</td>
-      <td>Incluye una celda de datos en la tabla</td>
-    </tr>
+						<div class="col-6">
+							<h2>Elementos Block</h2>
 
-    <tr>
-    	<td><code>div</code></td>
-    	<td>Bloque de contenido</td>
-    	<td>Estructura el contenido como Block</td>
-    </tr>
+							<table>
+								<tr>
+									<th>Etiqueta</th>
+									<th>Nombre</th>
+									<th>Proposito</th>
+								</tr>
 
-    <tr>
-    	<td><code>ol</code></td>
-    	<td>order list</td>
-    	<td>Lista el contenido ordenadamente</td>
-    </tr>
+								<tr>
+									<td style="padding: 10px;"><code>h1</code>&ndash;<code>h6</code></td>
+									<td style="padding: 10px;">Cabeceras</td>
+									<td>Incluye una cabecera (niveles 1&ndash;6)</td>
+								</tr>
 
-    <tr>
-    	<td><code>ul</code></td>
-    	<td>unorder list</td>
-    	<td>Lista el contenido sin orden</td>
-    </tr>
-	</table>
+								<tr>
+									<td style="padding: 20px;"><code>p</code></td>
+									<td style="padding: 20px;">Párrafo</td>
+									<td>Incluye un parrafo de texto</td>
+								</tr>
 
-  <h2>Inline Elements</h2>
+								<tr>
+									<td><code>table</code></td>
+									<td>Tabla</td>
+									<td>Incluye una tabla</td>
+								</tr>
 
-  <table>
-    <tr>
-      <th>Etiqueta</th>
-      <th>Nombre</th>
-      <th>Proposito</th>
-      <th>Ejemplo</th>
-      <th>Resultado</th>
-    </tr>
+								<tr>
+									<td><code>tr</code></td>
+									<td>Fila de tabla</td>
+									<td>Incluye una fila de datos</td>
+								</tr>
 
-    <tr>
-      <td><code>em</code></td>
-      <td>emphasized</td>
-      <td>Hace texto enfatizado</td>
-      <td><code>&lt;em&gt;tsofisticación técnica&lt;/em&gt;</code></td>
-      <td><em>sofisticación técnica</em></td>
-    </tr>
+								<tr>
+									<td><code>th</code></td>
+									<td>Cabecera de tabla</td>
+									<td>Hace una cabecera de tabla</td>
+								</tr>
 
-    <tr>
-      <td><code>strong</code></td>
-      <td>strong</td>
-      <td>Hace texto strong</td>
-      <td>
-        <code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code>
-      </td>
-      <td><strong>at least a billion people</strong></td>
-    </tr>
+								<tr>
+									<td><code>td</code></td>
+									<td>Datos de tabla</td>
+									<td>Incluye una celda de datos en la tabla</td>
+								</tr>
 
-    <tr>
-      <td><code>a</code></td>
-      <td>anchor</td>
-      <td>Hace hyperlinks</td>
-      <td>
-        <code>
-          &lt;a href="http://learnenough.com/"&gt;Learn Enough&lt;/a&gt;
-        </code>
-      </td>
-      <td><a href="http://learnenough.com/">Learn Enough</td>
-    </tr>
+								<tr>
+									<td><code>div</code></td>
+									<td>Bloque de contenido</td>
+									<td>Estructura el contenido como Block</td>
+								</tr>
 
-    <tr>
-      <td><code>img</code></td>
-      <td>image</td>
-      <td>Incluye una imagen</td>
-      <td>
-        <code>
-          &lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;
-        </code>
-      </td>
-      <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
-    </tr>
+								<tr>
+									<td><code>ol</code></td>
+									<td>order list</td>
+									<td>Lista el contenido ordenadamente</td>
+								</tr>
 
-    <tr>
-      <td><code>span</code></td>
-      <td>span</td>
-      <td>Su contenido es un elemento Inline</td>
-      <td>
-        <code>
-          &lt;span&gt;contenido en linea con el texto&lt;/span&gt;
-        </code>
-      </td>
-      <td><span>contenido en linea con el texto</span></td>
-    </tr>
+								<tr>
+									<td><code>ul</code></td>
+									<td>unorder list</td>
+									<td>Lista el contenido sin orden</td>
+								</tr>
+							</table>
 
-    <tr>
-      <td><code>li</code></td>
-      <td>linea</td>
-      <td>Contenido Inline de las listas</td>
-      <td>
-        <code>
-          &lt;li&gt;contenido en linea con el texto&lt;/li&gt;
-        </code>
-      </td>
-      <td><li>contenido en linea con el texto</li></td>
-    </tr>
-  </table>
+						</div>
 
-  <hr>
+						<div class="col-6">
 
-  <table>
-  <tr>
-    <th>Formula style</th>
-  	<th>Estilos CSS aplicados en moby_dick.html</th>
-  </tr>
-  <tr>
-  	<td rowspan="12">style="estilo ;"</td>  	
- 		<td>font-style: normal</td>
- 	</tr>
+							<h2>Inline Elements</h2>
 
- 	<tr>
-  	<td>font-style: italic</td>
-  </tr>
-  <tr>
-  	<td>font-size: 20px</td>
-  </tr>
-  
-  <tr>
-  	<td>font-weight: bold</td>
-  </tr>
+							<table>
+								<tr>
+									<th>Etiqueta</th>
+									<th>Nombre</th>
+									<th>Proposito</th>
+									<th>Ejemplo</th>
+									<th>Resultado</th>
+								</tr>
 
-  <tr>
-  	<td>color: #ff0000</td>
-  </tr>
+								<tr>
+									<td><code>em</code></td>
+									<td>emphasized</td>
+									<td>Hace texto enfatizado</td>
+									<td><code>&lt;em&gt;tsofisticación técnica&lt;/em&gt;</code></td>
+									<td><em>sofisticación técnica</em></td>
+								</tr>
 
-  <tr>
-  	<td>text-align: center</td>
-  </tr>
+								<tr>
+									<td><code>strong</code></td>
+									<td>strong</td>
+									<td>Hace texto strong</td>
+									<td>
+										<code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code>
+									</td>
+									<td><strong>at least a billion people</strong></td>
+								</tr>
 
-  <tr>
-  	<td>float:left/rigth</td>
-  </tr>
-  
-  <tr>
-  	<td>margin: 40px</td>
-  </tr>
-  
-  <tr>
-  	<td>margin-rigth: 40px</td>
-  </tr>
-  
-  <tr>
-  	<td>padding: 10px</td>
-  </tr>
-  
-  <tr>
-  	<td>display: block; margin: 0 auto</td>
-  </tr>
-  
-  <tr>
-  	<td>background-color: #fafafa</td>
-  </tr>
+								<tr>
+									<td><code>a</code></td>
+									<td>anchor</td>
+									<td>Hace hyperlinks</td>
+									<td>
+										<code>
+											&lt;a href="http://learnenough.com/"&gt;Learn Enough&lt;/a&gt;
+										</code>
+									</td>
+									<td><a href="http://learnenough.com/">Learn Enough</a></td>
+								</tr>
 
-  </table>
+								<tr>
+									<td><code>img</code></td>
+									<td>image</td>
+									<td>Incluye una imagen</td>
+									<td>
+										<code>
+											&lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;
+										</code>
+									</td>
+									<td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
+								</tr>
+
+								<tr>
+									<td><code>span</code></td>
+									<td>span</td>
+									<td>Su contenido es un elemento Inline</td>
+									<td>
+										<code>
+											&lt;span&gt;contenido en linea con el texto&lt;/span&gt;
+										</code>
+									</td>
+									<td><span>contenido en linea con el texto</span></td>
+								</tr>
+
+								<tr>
+									<td><code>li</code></td>
+									<td>linea</td>
+									<td>Contenido Inline de las listas</td>
+									<td>
+										<code>
+											&lt;li&gt;contenido en linea con el texto&lt;/li&gt;
+										</code>
+									</td>
+									<td><li>contenido en linea con el texto</li></td>
+								</tr>
+							</table>
+
+							<hr>
+
+						</div>
+
+						<div class="col-8 offset-2">
+
+							<table>
+								<tr>
+									<th>Formula style</th>
+									<th>Estilos CSS aplicados en moby_dick.html</th>
+								</tr>
+								<tr>
+									<td rowspan="12">style="estilo ;"</td>  	
+									<td>font-style: normal</td>
+								</tr>
+
+								<tr>
+									<td>font-style: italic</td>
+								</tr>
+								<tr>
+									<td>font-size: 20px</td>
+								</tr>
+								
+								<tr>
+									<td>font-weight: bold</td>
+								</tr>
+
+								<tr>
+									<td>color: #ff0000</td>
+								</tr>
+
+								<tr>
+									<td>text-align: center</td>
+								</tr>
+
+								<tr>
+									<td>float:left/rigth</td>
+								</tr>
+								
+								<tr>
+									<td>margin: 40px</td>
+								</tr>
+								
+								<tr>
+									<td>margin-rigth: 40px</td>
+								</tr>
+								
+								<tr>
+									<td>padding: 10px</td>
+								</tr>
+								
+								<tr>
+									<td>display: block; margin: 0 auto</td>
+								</tr>
+								
+								<tr>
+									<td>background-color: #fafafa</td>
+								</tr>
+
+							</table>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+
 </body>
 </html>
